@@ -100,7 +100,7 @@ label {
 }
 
 button {
-    background-color: rgb(50, 79, 50);
+    background-color: #596D48;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -112,5 +112,17 @@ button {
 }
 
 .login-text {
-    color: rgb(50, 79, 50);
+    color: #596D48;
+}
+
+input {
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+    border: 1px solid gray;
+}
+
+input:focus {
+    border: 3px solid blue;
+    box-shadow: 2px 2px 5px black;
 }
