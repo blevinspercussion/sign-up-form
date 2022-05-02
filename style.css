@@ -92,3 +92,25 @@ label {
 .form-column {
     flex: 50%;
 }
+
+.bottom-div {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+button {
+    background-color: rgb(50, 79, 50);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    height: 85px;
+    width: 300px;
+}
+
+.login-text {
+    color: rgb(50, 79, 50);
+}
