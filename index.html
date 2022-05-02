@@ -35,7 +35,7 @@
             <div class="form-div">
                 <h1>Let do this!</h1>
                 <div class="info-form">
-                    <form action="" method="post">
+                    <form  id="signup-form">
 
                     <div class="form-columns">
 
@@ -67,9 +67,9 @@
                         <input type="text" name="phone" pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$">
                         <br>
                         <br>
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <label for="confirm-password" class="confirm-password">CONFIRM PASSWORD</label>
                         <br>
-                        <input type="password" name="confirm-password">
+                        <input type="password" name="confirm-password" class="password">
                     </div>
 
                     </div>
@@ -79,7 +79,7 @@
             </div>
 
             <div class="bottom-div">
-                <button type="submit">Create Account</button>
+                <button type="submit" formmethod="post" form="signup-form" value="Update">Create Account</button>
                 
                 <h3>Already have an account? <div class="login-text">Log in</div></h3>
             </div>

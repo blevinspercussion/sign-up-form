@@ -37,7 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
+    position: absolute;
     background: rgba(0, 0, 0, 0.5);
     margin-top: 37vh;
     width: 40vw;
@@ -125,4 +125,8 @@ input {
 input:focus {
     border: 3px solid blue;
     box-shadow: 2px 2px 5px black;
+}
+
+input:invalid {
+    border: 3px solid red;
 }
